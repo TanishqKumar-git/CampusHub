@@ -1,0 +1,13 @@
+# Real database credentials stay on your machine
+config/db.php
+
+# User uploaded files (keep the folder itself)
+uploads/*
+!uploads/.gitkeep
+!uploads/.htaccess
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
